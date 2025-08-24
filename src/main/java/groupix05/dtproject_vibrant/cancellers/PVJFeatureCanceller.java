@@ -18,6 +18,9 @@ public class PVJFeatureCanceller<T extends IFeatureConfig> extends FeatureCancel
 
     @Override
     public boolean shouldCancel(ConfiguredFeature<?, ?> configuredFeature, BiomePropertySelectors.FeatureCancellations featureCancellations) {
+        if (featureConfigClass.isInstance(configuredFeature.config)) {
+            return true;
+        }
         if (configuredFeature.config instanceof DecoratedFeatureConfig) {
 
             final ConfiguredFeature<?, ?> nextConfiguredFeature = ((DecoratedFeatureConfig) configuredFeature.config).feature.get();
