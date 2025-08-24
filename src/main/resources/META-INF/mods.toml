@@ -1,13 +1,13 @@
 license="MIT"
 modLoader="javafml"
 loaderVersion="[36,)"
-issueTrackerURL="https://github.com/Groupix05/DynamicTrees-Generator/issues"
+issueTrackerURL="https://github.com/DynamicTreesTeam/DynamicTrees-Project-Vibrant/issues"
 
 [[mods]]
 modId="dtproject_vibrant"
 version="${file.jarVersion}"
 displayName="Dynamic Trees for Project: Vibrant Journeys"
-displayURL="https://www.curseforge.com/minecraft/mc-mods/dynamictrees"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/dynamic-trees-project-vibrant-journeys-pioneer"
 logoFile="logo.png"
 credits=""
 authors="Groupix05"
