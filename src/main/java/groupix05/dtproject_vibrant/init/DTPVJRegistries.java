@@ -8,20 +8,30 @@ import com.ferreusveritas.dynamictrees.blocks.rootyblocks.SoilProperties;
 import com.ferreusveritas.dynamictrees.growthlogic.GrowthLogicKit;
 import com.ferreusveritas.dynamictrees.systems.fruit.Fruit;
 import com.ferreusveritas.dynamictrees.systems.genfeatures.GenFeature;
+import com.ferreusveritas.dynamictrees.systems.pod.Pod;
 import com.ferreusveritas.dynamictrees.trees.Family;
 import com.ferreusveritas.dynamictrees.trees.Species;
 import groupix05.dtproject_vibrant.blocks.ScruffyLeavesProperties;
 import groupix05.dtproject_vibrant.cancellers.PVJFeatureCanceller;
 import groupix05.dtproject_vibrant.cells.DTPVJCellKits;
+import groupix05.dtproject_vibrant.fruits.*;
+import groupix05.dtproject_vibrant.genfeatures.DTPVJGenFeatures;
 import groupix05.dtproject_vibrant.growthlogic.DTPVJGrowthLogicKits;
 import groupix05.dtproject_vibrant.DynamicTreesProjectVibrant;
 import groupix05.dtproject_vibrant.trees.*;
+import net.minecraft.util.SoundEvent;
 import net.minecraft.world.gen.feature.*;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.registries.ForgeRegistries;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class DTPVJRegistries {
+
+    public static final DeferredRegister<SoundEvent> SOUNDS = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, DynamicTreesProjectVibrant.MOD_ID);
+    public static final RegistryObject<SoundEvent> FRUIT_BONK = registerSound("falling_fruit.bonk");
 
     public static void setup() {
     }
@@ -37,9 +47,13 @@ public class DTPVJRegistries {
     private static void setupConnectables() {
     }
 
+    public static RegistryObject<SoundEvent> registerSound (String name){
+        return SOUNDS.register(name, ()-> new SoundEvent(DynamicTreesProjectVibrant.location(name)));
+    }
+
     @SubscribeEvent
     public static void onGenFeatureRegistry(final com.ferreusveritas.dynamictrees.api.registry.RegistryEvent<GenFeature> event) {
-        //DTBYGGenFeatures.register(event.getRegistry());
+        DTPVJGenFeatures.register(event.getRegistry());
     }
 
     @SubscribeEvent
@@ -75,6 +89,12 @@ public class DTPVJRegistries {
 
     @SubscribeEvent
     public static void registerFruitTypes(final TypeRegistryEvent<Fruit> event) {
+        event.registerType(DynamicTreesProjectVibrant.location("cobweb"), CobwebFruit.TYPE);
+    }
+
+    @SubscribeEvent
+    public static void registerPodType(final TypeRegistryEvent<Pod> event) {
+        event.registerType(DynamicTreesProjectVibrant.location("falling_palm"), FallingPalmPod.TYPE);
     }
 
     public static final FeatureCanceller PVJ_TREE_CANCELLER = new PVJFeatureCanceller<>(DynamicTreesProjectVibrant.location("tree"), BaseTreeFeatureConfig.class);

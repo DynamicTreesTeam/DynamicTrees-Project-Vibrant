@@ -1,4 +1,7 @@
 {
+  "death.attack.dtproject_vibrant.falling_fruit.coconut": "%1$s was bonked in the head by a falling Coconut",
+  "subtitle.dtproject_vibrant.falling_fruit.bonk": "Player bonked by fruit",
+
   "block.dtproject_vibrant.aspen_branch": "Aspen Tree",
   "block.dtproject_vibrant.baobab_branch": "Baobab Tree",
   "block.dtproject_vibrant.cherry_branch": "Cherry Tree",

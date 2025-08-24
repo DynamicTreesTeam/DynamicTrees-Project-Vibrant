@@ -36,6 +36,7 @@ public final class DynamicTreesProjectVibrant {
         RegistryHandler.setup(MOD_ID);
 
         DTPVJRegistries.setup();
+        DTPVJRegistries.SOUNDS.register(eventBus);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {

@@ -1,0 +1,9 @@
+{
+  "falling_fruit.bonk": {
+    "category": "blocks",
+    "subtitle": "subtitle.dtproject_vibrant.falling_fruit.bonk",
+    "sounds": [{
+      "name": "dtproject_vibrant:blocks/fruit/bonk"
+    }]
+  }
+}

@@ -15,6 +15,20 @@
   },
   "transformable": false,
   "perfect_biomes": { "type": "beach" },
-  "primitive_sapling": "projectvibrantjourneys:palm_sapling",
-  "acceptable_soils": [ "dirt_like", "sand_like" ]
+  "acceptable_soils": [ "dirt_like", "sand_like" ],
+  "primitive_saplings": [
+    { "sapling_block": "projectvibrantjourneys:palm_sapling" }
+  ],
+  "pods": [
+    "dtproject_vibrant:coconut"
+  ],
+  "features": [
+    {
+      "name": "dtproject_vibrant:palm_fruit",
+      "properties": {
+        "pod": "dtproject_vibrant:coconut",
+        "fruiting_radius": 5
+      }
+    }
+  ]
 }

@@ -1,4 +1,7 @@
 {
+  "death.attack.dtproject_vibrant.falling_fruit.coconut": "%1$s a reçu une noix de coco sur la tête",
+  "subtitle.dtproject_vibrant.falling_fruit.bonk": "Le joueur a été assommé par un fruit",
+
   "block.dtproject_vibrant.aspen_branch": "Peuplier faux-tremble",
   "block.dtproject_vibrant.baobab_branch": "Baobab",
   "block.dtproject_vibrant.cherry_branch": "Cerisier",
