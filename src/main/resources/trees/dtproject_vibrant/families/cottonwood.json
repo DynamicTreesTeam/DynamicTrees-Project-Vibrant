@@ -1,0 +1,7 @@
+{
+  "common_leaves": "dtproject_vibrant:cottonwood",
+  "common_species": "dtproject_vibrant:cottonwood",
+  "primitive_log": "projectvibrantjourneys:cottonwood_log",
+  "primitive_stripped_log": "projectvibrantjourneys:stripped_cottonwood_log",
+  "max_branch_radius": 24
+}

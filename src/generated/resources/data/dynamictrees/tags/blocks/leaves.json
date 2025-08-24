@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "dtproject_vibrant:aspen_leaves",
+    "dtproject_vibrant:baobab_leaves",
+    "dtproject_vibrant:cottonwood_leaves",
+    "dtproject_vibrant:fir_leaves",
+    "dtproject_vibrant:joshua_leaves",
+    "dtproject_vibrant:juniper_leaves",
+    "dtproject_vibrant:mangrove_leaves",
+    "dtproject_vibrant:oak_undergrowth_leaves",
+    "dtproject_vibrant:orange_maple_leaves",
+    "dtproject_vibrant:palm_leaves",
+    "dtproject_vibrant:pine_leaves",
+    "dtproject_vibrant:pink_cherry_leaves",
+    "dtproject_vibrant:purple_maple_leaves",
+    "dtproject_vibrant:redwood_leaves",
+    "dtproject_vibrant:red_maple_leaves",
+    "dtproject_vibrant:tamarack_leaves",
+    "dtproject_vibrant:white_cherry_leaves",
+    "dtproject_vibrant:willow_leaves"
+  ]
+}

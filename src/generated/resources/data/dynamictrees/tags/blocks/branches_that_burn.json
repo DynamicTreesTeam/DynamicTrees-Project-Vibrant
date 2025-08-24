@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "dtproject_vibrant:aspen_branch",
+    "dtproject_vibrant:baobab_branch",
+    "dtproject_vibrant:cherry_branch",
+    "dtproject_vibrant:cottonwood_branch",
+    "dtproject_vibrant:fir_branch",
+    "dtproject_vibrant:joshua_branch",
+    "dtproject_vibrant:juniper_branch",
+    "dtproject_vibrant:mangrove_branch",
+    "dtproject_vibrant:maple_branch",
+    "dtproject_vibrant:palm_branch",
+    "dtproject_vibrant:pine_branch",
+    "dtproject_vibrant:redwood_branch",
+    "dtproject_vibrant:tamarack_branch",
+    "dtproject_vibrant:willow_branch"
+  ]
+}

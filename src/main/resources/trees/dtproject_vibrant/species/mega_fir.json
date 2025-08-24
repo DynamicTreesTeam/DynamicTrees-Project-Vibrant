@@ -1,0 +1,37 @@
+{
+  "family": "dtproject_vibrant:fir",
+  "tapering": 0.3,
+  "signal_energy": 32.0,
+  "up_probability": 7,
+  "lowest_branch_height": 7,
+  "growth_rate": 1.0,
+  "soil_longevity": 14,
+  "max_branch_radius": 24,
+  "growth_logic_kit": {
+    "name": "conifer",
+    "properties": {
+      "energy_divisor": 4.5,
+      "height_variation": 8
+    }
+  },
+  "leaves_properties": "dtproject_vibrant:fir",
+  "environment_factors" : {
+    "hot": 0.50,
+    "dry": 0.25,
+    "wet": 0.75
+  },
+  "world_gen_leaf_map_height": 60,
+  "perfect_biomes": { "type": "coniferous" },
+  "features" : [
+    "conifer_topper",
+    {
+      "name": "mound",
+      "properties": {
+        "mound_cutoff_radius": 999
+      }
+    },
+    "clear_volume",
+    "podzol",
+    "bottom_flare"
+  ]
+}

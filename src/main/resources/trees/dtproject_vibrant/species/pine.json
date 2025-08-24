@@ -1,0 +1,19 @@
+{
+  "family": "dtproject_vibrant:pine",
+  "tapering": 0.25,
+  "signal_energy": 20.0,
+  "up_probability": 6,
+  "lowest_branch_height": 6,
+  "growth_rate": 0.9,
+  "growth_logic_kit": "dtproject_vibrant:tapered",
+  "leaves_properties": "dtproject_vibrant:pine",
+  "environment_factors" : {
+    "hot": 0.50,
+    "wet": 0.75
+  },
+  "perfect_biomes": { "type": "coniferous" },
+  "primitive_sapling": "projectvibrantjourneys:pine_sapling",
+  "features" : [
+    "conifer_topper"
+  ]
+}

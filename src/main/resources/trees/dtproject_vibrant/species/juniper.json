@@ -1,0 +1,39 @@
+{
+    "family": "dtproject_vibrant:juniper",
+    "tapering": 0.2,
+    "up_probability": 2,
+    "lowest_branch_height": 0,
+    "signal_energy": 8.0,
+    "growth_rate": 0.7,
+    "soil_longevity": 2,
+    "leaves_properties": "dtproject_vibrant:juniper",
+    "generate_seed": true,
+    "generate_sapling": true,
+    "environment_factors": {
+        "sparse": 1.1,
+        "#forge:is_hot": 0.5,
+        "#forge:is_wet": 0.75
+    },
+    "growth_logic_kit": "dtproject_vibrant:juniper",
+    "perfect_biomes": { "type": "badlands" },
+    "primitive_saplings": [
+        { "sapling_block": "projectvibrantjourneys:juniper_sapling" },
+        {
+        "sapling_item": "projectvibrantjourneys:juniper_berries",
+        "can_craft_seed_to_sapling": false
+        }
+    ],
+    "acceptable_soils": ["dirt_like","sand_like"],
+    "fruits": [
+        "dtproject_vibrant:juniper_berries"
+    ],
+    "features": [
+        {
+            "name": "fruit",
+            "properties": {
+                "fruit": "dtproject_vibrant:juniper_berries",
+                "fruiting_radius": 5
+            }
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "multipart": [
+        {   "when": { "age": 0 },
+            "apply": { "model": "dtproject_vibrant:block/fruit/juniper_berries_age0" }
+        },
+        {   "when": { "age": 1 },
+            "apply": [
+                { "model": "dtproject_vibrant:block/fruit/juniper_berries_age1" },
+                { "model": "dtproject_vibrant:block/fruit/juniper_berries_age1", "y": 90 },
+                { "model": "dtproject_vibrant:block/fruit/juniper_berries_age1", "y": 180 },
+                { "model": "dtproject_vibrant:block/fruit/juniper_berries_age1", "y": 270 }
+            ]
+        },
+        {   "when": { "age": 2 },
+            "apply": [
+                { "model": "dtproject_vibrant:block/fruit/juniper_berries_age2" },
+                { "model": "dtproject_vibrant:block/fruit/juniper_berries_age2", "y": 90 },
+                { "model": "dtproject_vibrant:block/fruit/juniper_berries_age2", "y": 180 },
+                { "model": "dtproject_vibrant:block/fruit/juniper_berries_age2", "y": 270 }
+            ]
+        },
+        {   "when": { "age": 3 },
+            "apply": [
+                { "model": "dtproject_vibrant:block/fruit/juniper_berries_age3" },
+                { "model": "dtproject_vibrant:block/fruit/juniper_berries_age3", "y": 90 },
+                { "model": "dtproject_vibrant:block/fruit/juniper_berries_age3", "y": 180 },
+                { "model": "dtproject_vibrant:block/fruit/juniper_berries_age3", "y": 270 }
+            ]
+        }
+    ]
+}

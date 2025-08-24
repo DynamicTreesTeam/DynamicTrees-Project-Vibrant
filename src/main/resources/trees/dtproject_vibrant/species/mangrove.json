@@ -1,0 +1,16 @@
+{
+  "type": "dtproject_vibrant:mangrove",
+  "family": "dtproject_vibrant:mangrove",
+  "tapering": 0.1,
+  "signal_energy": 9.0,
+  "lowest_branch_height": 3,
+  "growth_rate": 0.6,
+  "leaves_properties": "dtproject_vibrant:mangrove",
+  "environment_factors" : {
+    "cold": 0.75,
+    "dry": 0.5
+  },
+  "perfect_biomes": { "types": [ "swamp", "overworld" ] },
+  "primitive_sapling": "projectvibrantjourneys:mangrove_sapling",
+  "acceptable_soils": [ "water_like", "dirt_like" ]
+}

@@ -1,0 +1,7 @@
+{
+  "common_leaves": "dtproject_vibrant:baobab",
+  "common_species": "dtproject_vibrant:baobab",
+  "primitive_log": "projectvibrantjourneys:baobab_log",
+  "primitive_stripped_log": "projectvibrantjourneys:stripped_baobab_log",
+  "max_branch_radius": 24
+}

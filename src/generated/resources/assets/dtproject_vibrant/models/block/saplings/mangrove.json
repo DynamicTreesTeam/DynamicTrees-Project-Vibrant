@@ -1,0 +1,8 @@
+{
+  "parent": "dynamictrees:block/smartmodel/sapling",
+  "textures": {
+    "particle": "projectvibrantjourneys:block/mangrove_leaves",
+    "log": "projectvibrantjourneys:block/mangrove_log",
+    "leaves": "projectvibrantjourneys:block/mangrove_leaves"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "dtproject_vibrant:aspen_sapling",
+    "dtproject_vibrant:baobab_sapling",
+    "dtproject_vibrant:cottonwood_sapling",
+    "dtproject_vibrant:fir_sapling",
+    "dtproject_vibrant:joshua_sapling",
+    "dtproject_vibrant:juniper_sapling",
+    "dtproject_vibrant:mangrove_sapling",
+    "dtproject_vibrant:palm_sapling",
+    "dtproject_vibrant:pine_sapling",
+    "dtproject_vibrant:pink_cherry_sapling",
+    "dtproject_vibrant:red_maple_sapling",
+    "dtproject_vibrant:redwood_sapling",
+    "dtproject_vibrant:tamarack_sapling",
+    "dtproject_vibrant:willow_sapling"
+  ]
+}

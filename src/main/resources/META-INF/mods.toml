@@ -1,0 +1,51 @@
+license="MIT"
+modLoader="javafml"
+loaderVersion="[36,)"
+issueTrackerURL="https://github.com/Groupix05/DynamicTrees-Generator/issues"
+
+[[mods]]
+modId="dtproject_vibrant"
+version="${file.jarVersion}"
+displayName="Dynamic Trees for Project: Vibrant Journeys"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/dynamictrees"
+logoFile="logo.png"
+credits=""
+authors="Groupix05"
+description='''
+Adds Dynamic Trees compatibility for Project: Vibrant Journeys.
+'''
+
+[[dependencies.dtproject_vibrant]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36.2.34,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.dtproject_vibrant]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.dtproject_vibrant]]
+    modId="dynamictrees"
+    mandatory=true
+    versionRange="[0.10.5,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.dtproject_vibrant]]
+    modId="dynamictreesplus"
+    mandatory=false
+    versionRange="[0.1.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.dtproject_vibrant]]
+    modId="projectvibrantjourneys"
+    mandatory=true
+    versionRange="[1.16.5-3.2.11,)"
+    ordering="AFTER"
+    side="BOTH"

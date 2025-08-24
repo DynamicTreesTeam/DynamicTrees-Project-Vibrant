@@ -1,0 +1,22 @@
+{
+  "family": "dtproject_vibrant:baobab",
+  "tapering": 1.1,
+  "signal_energy": 28.0,
+  "up_probability": 1,
+  "lowest_branch_height": 15,
+  "growth_rate": 0.4,
+  "soil_longevity": 20,
+  "max_branch_radius": 24,
+  "leaves_properties": "dtproject_vibrant:baobab",
+  "environment_factors": {
+    "cold": 0.75,
+    "forest": 0.9
+  },
+  "perfect_biomes": {
+    "name": "projectvibrantjourneys:.*baobab.*"
+  },
+  "primitive_saplings": "projectvibrantjourneys:baobab_sapling",
+  "features" : [
+    "mound"
+  ]
+}

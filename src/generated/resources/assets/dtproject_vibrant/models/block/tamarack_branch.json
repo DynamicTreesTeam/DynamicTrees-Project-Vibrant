@@ -1,0 +1,7 @@
+{
+  "loader": "dynamictrees:branch",
+  "textures": {
+    "bark": "projectvibrantjourneys:block/tamarack_log",
+    "rings": "projectvibrantjourneys:block/tamarack_log_top"
+  }
+}

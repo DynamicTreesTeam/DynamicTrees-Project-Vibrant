@@ -1,0 +1,34 @@
+{
+  "family": "dtproject_vibrant:cottonwood",
+  "tapering": 0.25,
+  "signal_energy": 32.0,
+  "up_probability": 2,
+  "lowest_branch_height": 9,
+  "growth_rate": 1.5,
+  "soil_longevity": 16,
+  "max_branch_radius": 24,
+  "leaves_properties": "dtproject_vibrant:cottonwood",
+  "environment_factors" : {
+    "cold": 0.75,
+    "hot": 0.5,
+    "dry": 0.5
+  },
+  "world_gen_leaf_map_height": 60,
+  "primitive_sapling": "projectvibrantjourneys:cottonwood_sapling",
+  "perfect_biomes": {
+    "name": "projectvibrantjourneys:prairie.*"
+  },
+  "features" : [
+    {
+      "name": "rot_soil",
+      "properties": {
+        "rotted_soil": "podzol"
+      }
+    },
+    "bottom_flare",
+    "roots",
+    "mound",
+    "mushroom_rot",
+    "bee_nest"
+  ]
+}

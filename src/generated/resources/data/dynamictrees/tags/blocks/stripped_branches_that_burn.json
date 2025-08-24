@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "dtproject_vibrant:stripped_aspen_branch",
+    "dtproject_vibrant:stripped_baobab_branch",
+    "dtproject_vibrant:stripped_cherry_branch",
+    "dtproject_vibrant:stripped_cottonwood_branch",
+    "dtproject_vibrant:stripped_fir_branch",
+    "dtproject_vibrant:stripped_joshua_branch",
+    "dtproject_vibrant:stripped_juniper_branch",
+    "dtproject_vibrant:stripped_mangrove_branch",
+    "dtproject_vibrant:stripped_maple_branch",
+    "dtproject_vibrant:stripped_palm_branch",
+    "dtproject_vibrant:stripped_pine_branch",
+    "dtproject_vibrant:stripped_redwood_branch",
+    "dtproject_vibrant:stripped_tamarack_branch",
+    "dtproject_vibrant:stripped_willow_branch"
+  ]
+}

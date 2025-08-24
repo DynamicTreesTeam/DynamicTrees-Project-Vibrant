@@ -1,0 +1,20 @@
+{
+  "type": "palm",
+  "family": "dtproject_vibrant:palm",
+  "tapering": 0.2,
+  "signal_energy": 10.0,
+  "growth_rate": 0.8,
+  "soil_longevity": 2,
+  "max_branch_radius": 8,
+  "growth_logic_kit": "dtproject_vibrant:diagonal_palm",
+  "leaves_properties": "dtproject_vibrant:palm",
+  "environment_factors" : {
+    "cold": 0.75,
+    "hot": 1.1,
+    "dry": 1.1
+  },
+  "transformable": false,
+  "perfect_biomes": { "type": "beach" },
+  "primitive_sapling": "projectvibrantjourneys:palm_sapling",
+  "acceptable_soils": [ "dirt_like", "sand_like" ]
+}

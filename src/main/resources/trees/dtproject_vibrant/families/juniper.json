@@ -1,0 +1,7 @@
+{
+  "common_leaves": "dtproject_vibrant:juniper",
+  "common_species": "dtproject_vibrant:juniper",
+  "primitive_log": "projectvibrantjourneys:juniper_log",
+  "primitive_stripped_log": "projectvibrantjourneys:stripped_juniper_log",
+  "max_branch_radius": 8
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "dynamictrees:item/standard_seed",
+  "textures": {
+    "layer0": "dtproject_vibrant:item/pine_seed"
+  }
+}

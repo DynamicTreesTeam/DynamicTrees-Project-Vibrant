@@ -1,0 +1,495 @@
+[
+  {
+    "__comment": "Cancel standard tree features from the overworld.",
+    "select": { "name": "projectvibrantjourneys.*" },
+    "cancellers": {
+      "type": "dtproject_vibrant:tree",
+      "namespace": ["projectvibrantjourneys", "minecraft"]
+    }
+  },
+  {
+    "__comment": "Cancel palm tree and juniper tree.",
+    "select": { "name": ".*" },
+    "cancellers": {
+      "type": "dtproject_vibrant:tree",
+      "namespace": ["projectvibrantjourneys", "minecraft"]
+    }
+  },
+
+
+  {
+    "select": {
+      "name": "projectvibrantjourneys:alpine_heights"
+    },
+    "apply": {
+      "species": {
+        "random" : {
+          "dtproject_vibrant:fir": 1,
+          "dtproject_vibrant:mega_fir": 1
+        }
+      },
+      "density": [ 1.0 ],
+      "chance": 1.2,
+      "forestness" : 1.5
+    }
+  },
+  {
+    "select": {
+      "name": "projectvibrantjourneys:aspen_grove.*"
+    },
+    "apply": {
+      "species": {
+        "random" : {
+          "dtproject_vibrant:aspen": 3,
+          "dtproject_vibrant:orange_maple": 1,
+          "dtproject_vibrant:red_maple": 1,
+          "dtproject_vibrant:purple_maple": 1,
+          "oak": 1
+        }
+      },
+      "density": [ 0.5 ],
+      "chance": 1.0,
+      "forestness" : 1.0
+    }
+  },
+  {
+    "select": {
+      "name": "projectvibrantjourneys:autumnal_coniferous_forest"
+    },
+    "apply": {
+      "species": {
+        "random" : {
+          "dtproject_vibrant:fir": 1,
+          "dtproject_vibrant:mega_fir": 1,
+          "dtproject_vibrant:tamarack": 1,
+          "dtproject_vibrant:mega_tamarack": 1,
+          "spruce": 1
+        }
+      },
+      "density": [ 1.0 ],
+      "chance": 1.2,
+      "forestness" : 1.5
+    }
+  },
+  {
+    "select": {
+      "name": "projectvibrantjourneys:baobab_fields"
+    },
+    "apply": {
+      "species": {
+        "random" : {
+          "dtproject_vibrant:baobab": 1,
+          "acacia": 2
+        }
+      },
+      "density": [ 0.7 ],
+      "chance": 0.5,
+      "forestness" : 1.0
+    }
+  },
+  {
+    "select": {
+      "name": "projectvibrantjourneys:blossoming_fields"
+    },
+    "apply": {
+      "species": {
+        "random" : {
+          "dtproject_vibrant:white_cherry": 1,
+          "dtproject_vibrant:pink_cherry": 1
+        }
+      },
+      "density": [ 0.6 ],
+      "chance": 0.5,
+      "forestness" : 0.5
+    }
+  },
+  {
+    "select": {
+      "name": "projectvibrantjourneys:.*boreal_forest"
+    },
+    "apply": {
+      "species": {
+        "random" : {
+          "dtproject_vibrant:fir": 3,
+          "dtproject_vibrant:mega_fir": 3,
+          "dtproject_vibrant:pine": 1
+        }
+      },
+      "density": [ 1.2 ],
+      "chance": 1.0,
+      "forestness" : 1.5
+    }
+  },
+  {
+    "select": {
+      "name": "projectvibrantjourneys:boreal_plateau"
+    },
+    "apply": {
+      "species": {
+        "random" : {
+          "dtproject_vibrant:fir": 1,
+          "dtproject_vibrant:mega_fir": 1
+        }
+      },
+      "density": [ 0.8 ],
+      "chance": 1.0,
+      "forestness" : 1.0
+    }
+  },
+  {
+    "select": {
+      "name": "projectvibrantjourneys:crimson_thicket"
+    },
+    "apply": {
+      "species": {
+        "random" : {
+          "dtproject_vibrant:fir": 2,
+          "dtproject_vibrant:mega_fir": 2,
+          "dtproject_vibrant:red_maple": 1,
+          "dtproject_vibrant:purple_maple": 1,
+          "spruce": 1
+        }
+      },
+      "density": [ 0.9 ],
+      "chance": 1.0,
+      "forestness" : 1.0
+    }
+  },
+  {
+    "select": {
+      "name": "projectvibrantjourneys:crystal_lakes"
+    },
+    "apply": {
+      "species": {
+        "random" : {
+          "dtproject_vibrant:fir": 1,
+          "dtproject_vibrant:mega_fir": 1,
+          "dtproject_vibrant:pine": 1,
+          "spruce": 1
+        }
+      },
+      "density": [ 0.6 ],
+      "chance": 0.6,
+      "forestness" : 0.6
+    }
+  },
+  {
+    "select": {
+      "name": "projectvibrantjourneys:desert_shrubland"
+    },
+    "apply": {
+      "species": {
+        "random" : {
+          "dtproject_vibrant:joshua": 1
+        }
+      },
+      "density": [ 0.1 ],
+      "chance": 0.2
+    }
+  },
+  {
+    "select": {
+      "name": "projectvibrantjourneys:flooded_woodlands"
+    },
+    "apply": {
+      "species": {
+        "random" : {
+          "dtproject_vibrant:underwater_birch": 1,
+          "dtproject_vibrant:underwater_oak": 2
+        }
+      },
+      "density": [ 0.6 ],
+      "chance": 0.6,
+      "forestness" : 0.6
+    }
+  },
+  {
+    "select": {
+      "name": "projectvibrantjourneys:mangrove_marsh"
+    },
+    "apply": {
+      "species": "dtproject_vibrant:mangrove",
+      "density": [ 0.3 ],
+      "chance": 0.5
+    }
+  },
+  {
+    "select": {
+      "name": "projectvibrantjourneys:meadows"
+    },
+    "apply": {
+      "species": {
+        "random" : {
+          "birch": 1,
+          "oak": 2,
+          "dtproject_vibrant:oak_undergrowth": 1
+        }
+      },
+      "density": [ 0.3 ],
+      "chance": 0.2
+    }
+  },
+  {
+    "select": {
+      "name": "projectvibrantjourneys:overgrown_spires"
+    },
+    "apply": {
+      "species": {
+        "random" : {
+          "jungle": 5,
+          "mega_jungle": 1,
+          "dtproject_vibrant:oak_undergrowth": 4
+        }
+      },
+      "density": [ 1.2 ],
+      "chance": 1.0,
+      "forestness" : 1.5
+    }
+  },
+  {
+    "select": {
+      "name": "projectvibrantjourneys:pine_meadows"
+    },
+    "apply": {
+      "species": {
+        "random" : {
+          "oak": 1,
+          "dtproject_vibrant:pine": 1,
+          "dtproject_vibrant:oak_undergrowth": 2
+        }
+      },
+      "density": [ 0.6 ],
+      "chance": 0.5
+    }
+  },
+  {
+    "select": {
+      "name": "projectvibrantjourneys:prairie"
+    },
+    "apply": {
+      "species": "dtproject_vibrant:cottonwood",
+      "density": [ 0.04 ],
+      "chance": 0.04
+    }
+  },
+  {
+    "select": {
+      "name": "projectvibrantjourneys:red_rock_valley"
+    },
+    "apply": {
+      "species": {
+        "random" : {
+          "jungle": 2,
+          "dtproject_vibrant:joshua": 1,
+          "dtproject_vibrant:oak_undergrowth": 3
+        }
+      },
+      "density": [ 0.6 ],
+      "chance": 0.4
+    }
+  },
+  {
+    "select": {
+      "name": "projectvibrantjourneys:.*redwood.*"
+    },
+    "apply": {
+      "species": {
+        "random" : {
+          "oak": 1,
+          "dtproject_vibrant:redwood": 8,
+          "dtproject_vibrant:small_redwood": 6
+        }
+      },
+      "density": [ 0.9 ],
+      "chance": 1.0,
+      "forestness" : 1.0
+    }
+  },
+  {
+    "select": {
+      "name": "projectvibrantjourneys:stony_fields"
+    },
+    "apply": {
+      "species": {
+        "random" : {
+          "birch": 1,
+          "oak": 2
+        }
+      },
+      "density": [ 0.6 ],
+      "chance": 0.6,
+      "forestness" : 0.6
+    }
+  },
+  {
+    "select": {
+      "name": "projectvibrantjourneys:tropical_beach"
+    },
+    "apply": {
+      "species": {
+        "random" : {
+          "dtproject_vibrant:palm": 3,
+          "dtproject_vibrant:sandy_oak_undergrowth": 2
+        }
+      },
+      "density": [ 0.8 ],
+      "chance": 0.7
+    }
+  },
+  {
+    "select": {
+      "name": "projectvibrantjourneys:verdant_sands"
+    },
+    "apply": {
+      "species": {
+        "random" : {
+          "oak": 1,
+          "jungle": 1,
+          "acacia": 1,
+          "dtproject_vibrant:oak_undergrowth": 1
+        }
+      },
+      "density": [ 0.5 ],
+      "chance": 0.6
+    }
+  },
+  {
+    "select": {
+      "name": "projectvibrantjourneys:willow_wetlands"
+    },
+    "apply": {
+      "species": "dtproject_vibrant:willow",
+      "density": [ 0.8 ],
+      "chance": 0.8
+    }
+  },
+  {
+    "select": {
+      "name": "projectvibrantjourneys:windswept_cliffs"
+    },
+    "apply": {
+      "species": {
+        "random" : {
+          "oak": 1,
+          "dtproject_vibrant:oak_undergrowth": 3
+        }
+      },
+      "density": [ 0.6 ],
+      "chance": 0.5
+    }
+  },
+
+
+  {
+    "select": {
+      "type": "badlands"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "...": 75,
+          "dtproject_vibrant:juniper": 1
+        }
+      }
+    }
+  },
+  {
+    "select": {
+      "OR": [{"AND": [{"type": "!snowy"}, {"name": ".*beach.*"}]}, {"types": ["!snowy", "beach"]}]
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "...": 75,
+          "dtproject_vibrant:palm": 1
+        }
+      }
+    }
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "only_if_loaded": "dynamictreesplus",
+    "select": {
+      "name": "projectvibrantjourneys:desert_shrubland"
+    },
+    "cancellers": {
+      "method": "splice_after",
+      "types": [ "dynamictreesplus:cactus" ],
+      "namespace": "minecraft"
+    },
+    "apply": {
+      "species": {
+        "random" : {
+          "dtproject_vibrant:joshua": 1,
+          "dynamictreesplus:pillar_cactus" : 2,
+          "dynamictreesplus:pipe_cactus": 2
+        }
+      },
+      "density": [ 0.1 ],
+      "chance": 0.3
+    }
+  },
+  {
+    "only_if_loaded": "dynamictreesplus",
+    "select": {
+      "name": "projectvibrantjourneys:red_rock_valley"
+    },
+    "cancellers": {
+      "method": "splice_after",
+      "types": [ "dynamictreesplus:cactus" ],
+      "namespace": "minecraft"
+    },
+    "apply": {
+      "species": {
+        "random" : {
+          "jungle": 2,
+          "dtproject_vibrant:joshua": 1,
+          "dtproject_vibrant:oak_undergrowth": 3,
+          "dtproject_vibrant:juniper": 1,
+          "dynamictreesplus:saguaro_cactus": 3
+        }
+      },
+      "density": [ 0.5 ],
+      "chance": 0.5
+    }
+  },
+  {
+    "only_if_loaded": "dynamictreesplus",
+    "select": {
+      "name": "projectvibrantjourneys:verdant_sands"
+    },
+    "cancellers": {
+      "method": "splice_after",
+      "types": [ "dynamictreesplus:cactus" ],
+      "namespace": "minecraft"
+    },
+    "apply": {
+      "species": {
+        "random" : {
+          "oak": 1,
+          "jungle": 1,
+          "acacia": 1,
+          "dtproject_vibrant:oak_undergrowth": 1,
+          "dynamictreesplus:pillar_cactus" : 2,
+					"dynamictreesplus:pipe_cactus" : 2
+        }
+      },
+      "density": [ 0.6 ],
+      "chance": 0.6
+    }
+  }
+]

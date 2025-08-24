@@ -1,0 +1,28 @@
+{
+    "type": "dtproject_vibrant:generates_underwater",
+    "family": "oak",
+    "tapering": 0.3,
+    "signal_energy": 12.0,
+    "growth_rate": 0.8,
+    "leaves_properties": "oak",
+    "use_seed_of_other_species": "oak",
+    "environment_factors" : {
+        "cold": 0.75,
+        "hot": 0.5,
+        "dry": 0.5,
+        "forest": 1.05
+    },
+    "perfect_biomes": { "name": ".*flooded.*" },
+    "primitive_sapling": "oak_sapling",
+    "acceptable_soils": ["dirt_like", "water_like"],
+    "features" : [
+        {
+            "name": "rot_soil",
+            "properties": {
+                "rotten_soil": "podzol"
+            }
+        },
+        "mushroom_rot",
+        "bee_nest"
+    ]
+}

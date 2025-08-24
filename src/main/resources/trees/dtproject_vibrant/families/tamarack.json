@@ -1,0 +1,8 @@
+{
+  "common_leaves": "dtproject_vibrant:tamarack",
+  "common_species": "dtproject_vibrant:tamarack",
+  "primitive_log": "projectvibrantjourneys:tamarack_log",
+  "primitive_stripped_log": "projectvibrantjourneys:stripped_tamarack_log",
+  "max_branch_radius": 24,
+  "conifer_variants": true
+}

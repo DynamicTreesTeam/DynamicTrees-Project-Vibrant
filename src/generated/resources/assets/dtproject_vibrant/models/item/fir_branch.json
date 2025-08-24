@@ -1,0 +1,7 @@
+{
+  "parent": "dynamictrees:item/branch",
+  "textures": {
+    "bark": "projectvibrantjourneys:block/fir_log",
+    "rings": "projectvibrantjourneys:block/fir_log_top"
+  }
+}

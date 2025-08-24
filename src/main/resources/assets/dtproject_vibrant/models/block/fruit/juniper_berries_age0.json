@@ -1,0 +1,7 @@
+{
+	"parent": "dtproject_vibrant:block/fruit/generic/flower_age0",
+	"textures": {
+		"particle": "dtproject_vibrant:block/juniper_berries",
+		"fruit": "dtproject_vibrant:block/juniper_berries"
+	}
+}

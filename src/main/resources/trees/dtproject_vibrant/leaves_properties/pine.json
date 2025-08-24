@@ -1,0 +1,9 @@
+{
+  "type": "dtproject_vibrant:scruffy",
+  "scruffy_leaf_chance": 0.20,
+  "scruffy_max_hydro": 1,
+  "primitive_leaves": "projectvibrantjourneys:pine_leaves",
+  "cell_kit": "dynamictrees:conifer",
+  "smother": 20,
+  "light_requirement": 11
+}

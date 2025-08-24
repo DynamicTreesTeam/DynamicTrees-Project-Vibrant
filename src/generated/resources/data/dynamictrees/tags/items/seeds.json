@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "dtproject_vibrant:aspen_seed",
+    "dtproject_vibrant:baobab_seed",
+    "dtproject_vibrant:cottonwood_seed",
+    "dtproject_vibrant:fir_seed",
+    "dtproject_vibrant:joshua_seed",
+    "dtproject_vibrant:juniper_seed",
+    "dtproject_vibrant:mangrove_seed",
+    "dtproject_vibrant:palm_seed",
+    "dtproject_vibrant:pine_seed",
+    "dtproject_vibrant:pink_cherry_seed",
+    "dtproject_vibrant:red_maple_seed",
+    "dtproject_vibrant:redwood_seed",
+    "dtproject_vibrant:tamarack_seed",
+    "dtproject_vibrant:willow_seed"
+  ]
+}
