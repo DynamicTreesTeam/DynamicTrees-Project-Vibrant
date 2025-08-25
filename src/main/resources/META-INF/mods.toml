@@ -9,7 +9,7 @@ version="${file.jarVersion}"
 displayName="Dynamic Trees for Project: Vibrant Journeys"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/dynamic-trees-project-vibrant-journeys-pioneer"
 logoFile="logo.png"
-credits=""
+credits="Max Hyper"
 authors="Groupix05"
 description='''
 Adds Dynamic Trees compatibility for Project: Vibrant Journeys.

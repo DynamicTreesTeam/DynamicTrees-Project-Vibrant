@@ -23,6 +23,13 @@
       }
     },
     "mound",
-    "bottom_flare"
+    "bottom_flare",
+    {
+      "name": "vines",
+      "properties": {
+        "quantity": 16,
+        "max_length": 16
+      }
+    }
   ]
 }

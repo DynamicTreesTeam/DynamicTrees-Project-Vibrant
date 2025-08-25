@@ -198,9 +198,9 @@
           "dtproject_vibrant:underwater_oak": 2
         }
       },
-      "density": [ 0.6 ],
+      "density": [ 0.8 ],
       "chance": 0.6,
-      "forestness" : 0.6
+      "forestness" : 0.7
     }
   },
   {
@@ -385,25 +385,21 @@
       "type": "badlands"
     },
     "apply": {
-      "species": {
-        "method": "splice_before",
-        "random": {
-          "...": 75,
-          "dtproject_vibrant:juniper": 1
-        }
-      }
+      "species": "dtproject_vibrant:juniper",
+      "density": [ 0.2 ],
+      "chance": 0.2
     }
   },
   {
     "select": {
-      "OR": [{"AND": [{"type": "!snowy"}, {"name": ".*beach.*"}]}, {"types": ["!snowy", "beach"]}]
+      "types": ["!snowy", "beach"]
     },
     "apply": {
       "species": {
         "method": "splice_before",
         "random": {
-          "...": 75,
-          "dtproject_vibrant:palm": 1
+          "...": 1,
+          "dtproject_vibrant:palm": 20
         }
       }
     }
