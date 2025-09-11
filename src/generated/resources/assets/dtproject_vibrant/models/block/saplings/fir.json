@@ -1,8 +1,8 @@
 {
   "parent": "dynamictrees:block/smartmodel/sapling",
+  "render_type": "minecraft:cutout_mipped",
   "textures": {
-    "particle": "projectvibrantjourneys:block/fir_leaves",
-    "log": "projectvibrantjourneys:block/fir_log",
-    "leaves": "projectvibrantjourneys:block/fir_leaves"
+    "leaves": "pioneer:block/fir_leaves",
+    "log": "pioneer:block/fir_log"
   }
 }

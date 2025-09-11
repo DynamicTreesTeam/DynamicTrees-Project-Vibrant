@@ -13,7 +13,7 @@
     "wet": 0.75
   },
   "perfect_biomes": { "type": "coniferous" },
-  "primitive_sapling": "projectvibrantjourneys:tamarack_sapling",
+  "primitive_sapling": "pioneer:tamarack_sapling",
   "mega_species": "dtproject_vibrant:mega_tamarack",
   "acceptable_soils" : [ "mountain_like", "dirt_like" ],
   "features" : [

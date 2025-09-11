@@ -1,7 +1,7 @@
 {
   "parent": "dynamictrees:item/branch",
   "textures": {
-    "bark": "projectvibrantjourneys:block/maple_log",
-    "rings": "projectvibrantjourneys:block/maple_log_top"
+    "bark": "pioneer:block/maple_log",
+    "rings": "pioneer:block/maple_log_top"
   }
 }

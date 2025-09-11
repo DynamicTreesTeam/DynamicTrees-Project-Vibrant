@@ -1,5 +1,5 @@
 {
-    "type": "dtproject_vibrant:generates_underwater",
+    "type": "dtaddon_lib:generates_underwater",
     "family": "birch",
     "tapering": 0.1,
     "signal_energy": 14.0,

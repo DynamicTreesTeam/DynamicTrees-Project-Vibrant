@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "projectvibrantjourneys:block/joshua_leaves"
+      "model": "pioneer:block/joshua_leaves"
     }
   }
 }

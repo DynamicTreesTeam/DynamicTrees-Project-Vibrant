@@ -1,6 +1,0 @@
-{
-  "loader": "dtproject_vibrant:palm_fronds",
-  "textures": {
-    "frond": "dtproject_vibrant:block/palm_frond"
-  }
-}

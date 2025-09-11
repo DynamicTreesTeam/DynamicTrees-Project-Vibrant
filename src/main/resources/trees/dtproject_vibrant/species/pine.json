@@ -5,14 +5,14 @@
   "up_probability": 6,
   "lowest_branch_height": 6,
   "growth_rate": 0.9,
-  "growth_logic_kit": "dtproject_vibrant:tapered",
+  "growth_logic_kit": "dtaddon_lib:tapered",
   "leaves_properties": "dtproject_vibrant:pine",
   "environment_factors" : {
     "hot": 0.50,
     "wet": 0.75
   },
   "perfect_biomes": { "type": "coniferous" },
-  "primitive_sapling": "projectvibrantjourneys:pine_sapling",
+  "primitive_sapling": "pioneer:pine_sapling",
   "features" : [
     "conifer_topper"
   ]

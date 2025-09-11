@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "projectvibrantjourneys:coconut"
+      "item": "pioneer:coconut"
     },
     {
       "item": "dynamictrees:dirt_bucket"

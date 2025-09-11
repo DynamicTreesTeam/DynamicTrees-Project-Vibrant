@@ -13,7 +13,7 @@
     "wet": 0.75
   },
   "perfect_biomes": { "type": "coniferous" },
-  "primitive_sapling": "projectvibrantjourneys:fir_sapling",
+  "primitive_sapling": "pioneer:fir_sapling",
   "mega_species": "dtproject_vibrant:mega_fir",
   "acceptable_soils" : [ "mountain_like", "dirt_like" ],
   "features" : [

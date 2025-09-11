@@ -1,8 +1,8 @@
 {
-  "type": "dynamictrees:leaves",
+  "type": "minecraft:block",
   "pools": [
     {
-      "rolls": 1,
+      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "dynamictrees:seed_item",
@@ -11,21 +11,23 @@
               "condition": "minecraft:survives_explosion"
             },
             {
-              "condition": "minecraft:table_bonus",
-              "enchantment": "minecraft:fortune",
               "chances": [
                 0.015625,
                 0.03125,
                 0.046875,
                 0.0625
-              ]
+              ],
+              "condition": "minecraft:table_bonus",
+              "enchantment": "minecraft:fortune"
             },
             {
               "condition": "dynamictrees:seasonal_seed_drop_chance"
             }
           ]
         }
-      ]
+      ],
+      "rolls": 1.0
     }
-  ]
+  ],
+  "random_sequence": "dtproject_vibrant:trees/leaves/palm"
 }

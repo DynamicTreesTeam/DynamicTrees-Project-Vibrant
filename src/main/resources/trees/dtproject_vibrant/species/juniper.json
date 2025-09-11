@@ -14,12 +14,12 @@
         "#forge:is_hot": 0.5,
         "#forge:is_wet": 0.75
     },
-    "growth_logic_kit": "dtproject_vibrant:juniper",
+    "growth_logic_kit": "azalea",
     "perfect_biomes": { "type": "badlands" },
     "primitive_saplings": [
-        { "sapling_block": "projectvibrantjourneys:juniper_sapling" },
+        { "sapling_block": "pioneer:juniper_sapling" },
         {
-        "sapling_item": "projectvibrantjourneys:juniper_berries",
+        "sapling_item": "pioneer:juniper_berries",
         "can_craft_seed_to_sapling": false
         }
     ],

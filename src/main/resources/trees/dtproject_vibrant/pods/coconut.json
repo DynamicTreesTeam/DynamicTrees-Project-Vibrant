@@ -1,7 +1,7 @@
 {
-  "type": "dtproject_vibrant:falling_palm",
+  "type": "dtaddon_lib:falling_palm",
   "block_registry_name": "coconut_fruit",
-  "item_stack": "projectvibrantjourneys:coconut",
+  "item_stack": "pioneer:coconut",
   "max_age": 3,
   "block_shapes": {
     "east": [

@@ -1,7 +1,7 @@
 {
-  "type": "dtproject_vibrant:scruffy",
+  "type": "scruffy",
   "scruffy_leaf_chance": 0.66,
   "scruffy_max_hydro": 1,
-  "primitive_leaves": "projectvibrantjourneys:joshua_leaves",
-  "cell_kit": "dtproject_vibrant:sparse"
+  "primitive_leaves": "pioneer:joshua_leaves",
+  "cell_kit": "dtaddon_lib:sparse"
 }

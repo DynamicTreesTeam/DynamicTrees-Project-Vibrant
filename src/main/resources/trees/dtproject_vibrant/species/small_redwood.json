@@ -7,7 +7,7 @@
   "growth_rate": 0.9,
   "soil_longevity": 2,
   "max_branch_radius": 24,
-  "growth_logic_kit": "dtproject_vibrant:small_redwood",
+  "growth_logic_kit": "dtaddon_lib:small_redwood",
   "leaves_properties": "dtproject_vibrant:redwood",
   "environment_factors" : {
     "hot": 0.50,
@@ -18,7 +18,7 @@
   "seed_name": "redwood_seed",
   "sapling_name": "redwood_sapling",
   "perfect_biomes": { "name": ".*redwood.*" },
-  "primitive_sapling": "projectvibrantjourneys:redwood_sapling",
+  "primitive_sapling": "pioneer:redwood_sapling",
   "mega_species": "dtproject_vibrant:redwood",
   "features" : [
     "conifer_topper",

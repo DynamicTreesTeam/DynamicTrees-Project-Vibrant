@@ -6,7 +6,7 @@
   "growth_rate": 0.8,
   "soil_longevity": 2,
   "max_branch_radius": 8,
-  "growth_logic_kit": "dtproject_vibrant:diagonal_palm",
+  "growth_logic_kit": "dtaddon_lib:diagonal_palm",
   "leaves_properties": "dtproject_vibrant:palm",
   "environment_factors" : {
     "cold": 0.75,
@@ -17,14 +17,14 @@
   "perfect_biomes": { "type": "beach" },
   "acceptable_soils": [ "dirt_like", "sand_like" ],
   "primitive_saplings": [
-    { "sapling_block": "projectvibrantjourneys:palm_sapling" }
+    { "sapling_block": "pioneer:palm_sapling" }
   ],
   "pods": [
     "dtproject_vibrant:coconut"
   ],
   "features": [
     {
-      "name": "dtproject_vibrant:palm_fruit",
+      "name": "dtaddon_lib:palm_fruit",
       "properties": {
         "pod": "dtproject_vibrant:coconut",
         "fruiting_radius": 5

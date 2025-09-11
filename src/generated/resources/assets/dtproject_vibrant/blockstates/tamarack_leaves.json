@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "projectvibrantjourneys:block/tamarack_leaves"
+      "model": "pioneer:block/tamarack_leaves"
     }
   }
 }

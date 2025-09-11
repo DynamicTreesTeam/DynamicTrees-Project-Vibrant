@@ -1,8 +1,8 @@
 {
   "common_leaves": "dtproject_vibrant:pine",
   "common_species": "dtproject_vibrant:pine",
-  "primitive_log": "projectvibrantjourneys:pine_log",
-  "primitive_stripped_log": "projectvibrantjourneys:stripped_pine_log",
+  "primitive_log": "pioneer:pine_log",
+  "primitive_stripped_log": "pioneer:pine_stripped_log",
   "max_branch_radius": 24,
   "conifer_variants": true,
   "generate_surface_root": true,

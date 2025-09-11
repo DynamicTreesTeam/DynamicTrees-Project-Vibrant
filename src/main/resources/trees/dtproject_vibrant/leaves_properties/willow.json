@@ -1,4 +1,4 @@
 {
-  "primitive_leaves": "projectvibrantjourneys:willow_leaves",
-  "cell_kit": "dtproject_vibrant:willow"
+  "primitive_leaves": "pioneer:willow_leaves",
+  "cell_kit": "dtaddon_lib:willow"
 }

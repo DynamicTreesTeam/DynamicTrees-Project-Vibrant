@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "projectvibrantjourneys:block/orange_maple_leaves"
+      "model": "pioneer:block/orange_maple_leaves"
     }
   }
 }

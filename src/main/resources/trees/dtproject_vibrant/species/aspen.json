@@ -5,7 +5,7 @@
   "up_probability": 6,
   "lowest_branch_height": 6,
   "growth_rate": 0.9,
-  "growth_logic_kit": "dtproject_vibrant:tapered",
+  "growth_logic_kit": "dtaddon_lib:tapered",
   "leaves_properties": "dtproject_vibrant:aspen",
   "environment_factors": {
     "cold": 1.1,
@@ -14,9 +14,9 @@
     "forest": 0.9
   },
   "perfect_biomes": {
-    "name": "projectvibrantjourneys:aspen.*"
+    "name": "pioneer:aspen.*"
   },
-  "primitive_sapling": "projectvibrantjourneys:aspen_sapling",
+  "primitive_sapling": "pioneer:aspen_sapling",
   "features" : [
     "conifer_topper"
   ]

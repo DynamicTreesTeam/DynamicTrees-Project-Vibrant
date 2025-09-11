@@ -70,7 +70,7 @@ minecraft {
                 "--output", file("src/generated/resources/"),
                 "--existing", file("src/main/resources"),
                 "--existing-mod", "dynamictrees",
-                "--existing-mod", "projectvibrantjourneys"
+                "--existing-mod", "pioneer"
             )
         }
     }
@@ -87,15 +87,17 @@ dependencies {
     //DynamicTrees
     implementation(fg.deobf("com.ferreusveritas.dynamictrees:DynamicTrees-$mcVersion:${property("dynamicTreesVersion")}"))
     runtimeOnly(fg.deobf("com.ferreusveritas.dynamictreesplus:DynamicTreesPlus-$mcVersion:${property("dynamicTreesPlusVersion")}"))
+    runtimeOnly(files("libs/DynamicTreesAddonLib-1.20.1-0.0.1-BETA1.jar"))
 
     //DynmaicTrees Tools/Utilities
-    runtimeOnly(fg.deobf("curse.maven:jade-324717:3910873"))
-    runtimeOnly(fg.deobf("curse.maven:jei-238222:4371666"))
-    runtimeOnly(fg.deobf("curse.maven:cc-tweaked-282001:4630520"))
-    runtimeOnly(fg.deobf("curse.maven:suggestion-provider-fix-469647:3271407"))
+    runtimeOnly(fg.deobf("curse.maven:jade-324717:5072729"))
+    runtimeOnly(fg.deobf("curse.maven:jei-238222:5101366"))
+    runtimeOnly(fg.deobf("curse.maven:cc-tweaked-282001:5118388"))
+    runtimeOnly(fg.deobf("curse.maven:suggestion-provider-fix-469647:4591193"))
 
     //Other
-    runtimeOnly(fg.deobf("curse.maven:project-vibrant-journeys-300297:3549712"))
+    implementation(fg.deobf("curse.maven:pioneer-661112:5664457"))
+    runtimeOnly(fg.deobf("curse.maven:blueprint-382216:6408581"))
 }
 
 tasks.jar {
@@ -119,7 +121,7 @@ java {
     withSourcesJar()
 
     toolchain {
-        languageVersion.set(JavaLanguageVersion.of(8))
+        languageVersion.set(JavaLanguageVersion.of(17))
     }
 }
 

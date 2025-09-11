@@ -14,9 +14,9 @@
     "dry": 0.5
   },
   "world_gen_leaf_map_height": 60,
-  "primitive_sapling": "projectvibrantjourneys:cottonwood_sapling",
+  "primitive_sapling": "pioneer:cottonwood_sapling",
   "perfect_biomes": {
-    "name": "projectvibrantjourneys:prairie.*"
+    "name": "pioneer:prairie.*"
   },
   "features" : [
     {

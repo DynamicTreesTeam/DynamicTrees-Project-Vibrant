@@ -1,0 +1,8 @@
+{
+  "parent": "dynamictrees:block/smartmodel/sapling",
+  "render_type": "minecraft:cutout_mipped",
+  "textures": {
+    "leaves": "pioneer:block/redwood_leaves",
+    "log": "pioneer:block/redwood_log"
+  }
+}

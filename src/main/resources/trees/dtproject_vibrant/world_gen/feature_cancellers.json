@@ -1,0 +1,27 @@
+[
+  {
+    "__comment": "Cancel standard cactus features from pioneer desert and badlands.",
+    "only_if_loaded": "dynamictreesplus",
+    "select": { "name": "pioneer.*" },
+    "cancellers": {
+      "types": [ "tree", "dynamictreesplus:cactus" ],
+      "namespaces": ["pioneer", "minecraft"]
+    }
+  },
+  {
+    "__comment": "Cancel standard tree features from the overworld.",
+    "select": { "name": "pioneer.*" },
+    "cancellers": {
+      "type": "tree",
+      "namespaces": ["pioneer", "minecraft"]
+    }
+  },
+  {
+    "__comment": "Cancel palm tree and juniper tree.",
+    "select": { "name": ".*" },
+    "cancellers": {
+      "type": "tree",
+      "namespaces": ["pioneer", "minecraft"]
+    }
+  }
+]

@@ -1,5 +1,5 @@
 {
-  "primitive_leaves": "projectvibrantjourneys:redwood_leaves",
+  "primitive_leaves": "pioneer:redwood_leaves",
   "cell_kit": "dynamictrees:conifer",
   "smother": 32,
   "light_requirement": 6

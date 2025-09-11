@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "dtproject_vibrant:block/saplings/small_redwood"
+      "model": "dtproject_vibrant:block/saplings/redwood_sapling"
     }
   }
 }

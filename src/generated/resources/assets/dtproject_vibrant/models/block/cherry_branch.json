@@ -1,7 +1,0 @@
-{
-  "loader": "dynamictrees:branch",
-  "textures": {
-    "bark": "projectvibrantjourneys:block/sakura_log",
-    "rings": "projectvibrantjourneys:block/sakura_log_top"
-  }
-}

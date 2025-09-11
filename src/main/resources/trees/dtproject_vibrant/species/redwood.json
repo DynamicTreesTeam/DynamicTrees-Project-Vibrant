@@ -7,7 +7,7 @@
   "growth_rate": 1.9,
   "soil_longevity": 40,
   "max_branch_radius": 24,
-  "growth_logic_kit": "dtproject_vibrant:redwood",
+  "growth_logic_kit": "dtaddon_lib:redwood",
   "leaves_properties": "dtproject_vibrant:redwood",
   "environment_factors" : {
     "hot": 0.50,

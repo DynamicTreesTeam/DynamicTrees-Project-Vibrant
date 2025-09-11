@@ -7,15 +7,16 @@
   "growth_rate": 0.4,
   "soil_longevity": 20,
   "max_branch_radius": 24,
+  "growth_logic_kit": "dtaddon_lib:baobab",
   "leaves_properties": "dtproject_vibrant:baobab",
   "environment_factors": {
     "cold": 0.75,
     "forest": 0.9
   },
   "perfect_biomes": {
-    "name": "projectvibrantjourneys:.*baobab.*"
+    "name": "pioneer:.*baobab.*"
   },
-  "primitive_saplings": "projectvibrantjourneys:baobab_sapling",
+  "primitive_saplings": "pioneer:baobab_sapling",
   "features" : [
     "mound"
   ]
