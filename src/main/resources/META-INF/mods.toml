@@ -32,7 +32,7 @@ Adds Dynamic Trees compatibility for Pioneer.
 [[dependencies.dtproject_vibrant]]
     modId="dynamictrees"
     mandatory=true
-    versionRange="[1.3.6,)"
+    versionRange="[1.4.8,)"
     ordering="AFTER"
     side="BOTH"
 
@@ -40,6 +40,13 @@ Adds Dynamic Trees compatibility for Pioneer.
     modId="dynamictreesplus"
     mandatory=false
     versionRange="[1.2.1,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.dtproject_vibrant]]
+    modId="dtaddon_lib"
+    mandatory=true
+    versionRange="[0.1.0-BETA1,)"
     ordering="AFTER"
     side="BOTH"
 

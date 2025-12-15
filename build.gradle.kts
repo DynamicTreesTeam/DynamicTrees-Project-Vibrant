@@ -87,7 +87,7 @@ dependencies {
     //DynamicTrees
     implementation(fg.deobf("com.ferreusveritas.dynamictrees:DynamicTrees-$mcVersion:${property("dynamicTreesVersion")}"))
     runtimeOnly(fg.deobf("com.ferreusveritas.dynamictreesplus:DynamicTreesPlus-$mcVersion:${property("dynamicTreesPlusVersion")}"))
-    runtimeOnly(files("libs/DynamicTreesAddonLib-1.20.1-0.0.1-BETA1.jar"))
+    implementation(fg.deobf("curse.maven:dynamic-trees-addon-lib-1404692:7334373"))
 
     //DynmaicTrees Tools/Utilities
     runtimeOnly(fg.deobf("curse.maven:jade-324717:5072729"))

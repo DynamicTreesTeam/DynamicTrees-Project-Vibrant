@@ -159,8 +159,8 @@
     },
     "apply": {
       "species": "dtproject_vibrant:cottonwood",
-      "density": [ 0.04 ],
-      "chance": 0.04
+      "density": [ 0.06 ],
+      "chance": 0.06
     }
   },
   {
